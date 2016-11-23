@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/waits/dropbox-sdk-ruby'
   s.license     = 'MIT'
   s.required_ruby_version = '>= 2.1.0'
-  s.add_development_dependency 'minitest', '~> 5.9'
-  s.add_development_dependency 'webmock', '~> 2.1'
+  # s.add_development_dependency 'minitest', '~> 5.9'
+  # s.add_development_dependency 'webmock', '~> 2.1'
   s.add_runtime_dependency 'http', '~> 2.0'
 end
